@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232A42A913EE9A3700473E2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A42A813EE9A3700473E2B /* Foundation.framework */; };
+		232A42B713EE9A3700473E2B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A42B613EE9A3700473E2B /* SenTestingKit.framework */; };
+		232A42B913EE9A3700473E2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A42B813EE9A3700473E2B /* UIKit.framework */; };
+		232A42BA13EE9A3700473E2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A42A813EE9A3700473E2B /* Foundation.framework */; };
+		232A42BC13EE9A3700473E2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A42BB13EE9A3700473E2B /* CoreGraphics.framework */; };
+		232A42BF13EE9A3700473E2B /* libInverter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A42A513EE9A3700473E2B /* libInverter.a */; };
+		232A42C513EE9A3700473E2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 232A42C313EE9A3700473E2B /* InfoPlist.strings */; };
+		232A42C713EE9A3700473E2B /* InverterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 232A42C613EE9A3700473E2B /* InverterTests.h */; };
+		232A42C913EE9A3700473E2B /* InverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 232A42C813EE9A3700473E2B /* InverterTests.m */; };
+		232A42D413EE9A4B00473E2B /* IOCContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 232A42D213EE9A4B00473E2B /* IOCContainer.h */; };
+		232A42D513EE9A4B00473E2B /* IOCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 232A42D313EE9A4B00473E2B /* IOCContainer.m */; };
+		232A42DA13EE9E1500473E2B /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 232A42D913EE9E1500473E2B /* TestClass.m */; };
+		232A42DC13EE9F0B00473E2B /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A42DB13EE9F0B00473E2B /* libobjc.A.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		232A42BD13EE9A3700473E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232A429C13EE9A3700473E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232A42A413EE9A3700473E2B;
+			remoteInfo = Inverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		232A42A513EE9A3700473E2B /* libInverter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInverter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		232A42A813EE9A3700473E2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		232A42AC13EE9A3700473E2B /* Inverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Inverter-Prefix.pch"; sourceTree = "<group>"; };
+		232A42B513EE9A3700473E2B /* InverterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InverterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		232A42B613EE9A3700473E2B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		232A42B813EE9A3700473E2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		232A42BB13EE9A3700473E2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		232A42C213EE9A3700473E2B /* InverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InverterTests-Info.plist"; sourceTree = "<group>"; };
+		232A42C413EE9A3700473E2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		232A42C613EE9A3700473E2B /* InverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InverterTests.h; sourceTree = "<group>"; };
+		232A42C813EE9A3700473E2B /* InverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InverterTests.m; sourceTree = "<group>"; };
+		232A42D213EE9A4B00473E2B /* IOCContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOCContainer.h; sourceTree = "<group>"; };
+		232A42D313EE9A4B00473E2B /* IOCContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOCContainer.m; sourceTree = "<group>"; };
+		232A42D613EE9A6C00473E2B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		232A42D713EE9E1500473E2B /* TestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProtocol.h; sourceTree = "<group>"; };
+		232A42D813EE9E1500473E2B /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		232A42D913EE9E1500473E2B /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		232A42DB13EE9F0B00473E2B /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.A.dylib; path = usr/lib/libobjc.A.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		232A42A213EE9A3700473E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232A42DC13EE9F0B00473E2B /* libobjc.A.dylib in Frameworks */,
+				232A42A913EE9A3700473E2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232A42B113EE9A3700473E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232A42B713EE9A3700473E2B /* SenTestingKit.framework in Frameworks */,
+				232A42B913EE9A3700473E2B /* UIKit.framework in Frameworks */,
+				232A42BA13EE9A3700473E2B /* Foundation.framework in Frameworks */,
+				232A42BC13EE9A3700473E2B /* CoreGraphics.framework in Frameworks */,
+				232A42BF13EE9A3700473E2B /* libInverter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232A429A13EE9A3700473E2B = {
+			isa = PBXGroup;
+			children = (
+				232A42DB13EE9F0B00473E2B /* libobjc.A.dylib */,
+				232A42AA13EE9A3700473E2B /* Inverter */,
+				232A42C013EE9A3700473E2B /* InverterTests */,
+				232A42A713EE9A3700473E2B /* Frameworks */,
+				232A42A613EE9A3700473E2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		232A42A613EE9A3700473E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232A42A513EE9A3700473E2B /* libInverter.a */,
+				232A42B513EE9A3700473E2B /* InverterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232A42A713EE9A3700473E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				232A42A813EE9A3700473E2B /* Foundation.framework */,
+				232A42B613EE9A3700473E2B /* SenTestingKit.framework */,
+				232A42B813EE9A3700473E2B /* UIKit.framework */,
+				232A42BB13EE9A3700473E2B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		232A42AA13EE9A3700473E2B /* Inverter */ = {
+			isa = PBXGroup;
+			children = (
+				232A42D613EE9A6C00473E2B /* README */,
+				232A42D213EE9A4B00473E2B /* IOCContainer.h */,
+				232A42D313EE9A4B00473E2B /* IOCContainer.m */,
+				232A42AB13EE9A3700473E2B /* Supporting Files */,
+			);
+			path = Inverter;
+			sourceTree = "<group>";
+		};
+		232A42AB13EE9A3700473E2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				232A42AC13EE9A3700473E2B /* Inverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		232A42C013EE9A3700473E2B /* InverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				232A42C613EE9A3700473E2B /* InverterTests.h */,
+				232A42C813EE9A3700473E2B /* InverterTests.m */,
+				232A42D713EE9E1500473E2B /* TestProtocol.h */,
+				232A42D813EE9E1500473E2B /* TestClass.h */,
+				232A42D913EE9E1500473E2B /* TestClass.m */,
+				232A42C113EE9A3700473E2B /* Supporting Files */,
+			);
+			path = InverterTests;
+			sourceTree = "<group>";
+		};
+		232A42C113EE9A3700473E2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				232A42C213EE9A3700473E2B /* InverterTests-Info.plist */,
+				232A42C313EE9A3700473E2B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		232A42A313EE9A3700473E2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232A42D413EE9A4B00473E2B /* IOCContainer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		232A42A413EE9A3700473E2B /* Inverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232A42CC13EE9A3700473E2B /* Build configuration list for PBXNativeTarget "Inverter" */;
+			buildPhases = (
+				232A42A113EE9A3700473E2B /* Sources */,
+				232A42A213EE9A3700473E2B /* Frameworks */,
+				232A42A313EE9A3700473E2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inverter;
+			productName = Inverter;
+			productReference = 232A42A513EE9A3700473E2B /* libInverter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		232A42B413EE9A3700473E2B /* InverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232A42CF13EE9A3700473E2B /* Build configuration list for PBXNativeTarget "InverterTests" */;
+			buildPhases = (
+				232A42B013EE9A3700473E2B /* Sources */,
+				232A42B113EE9A3700473E2B /* Frameworks */,
+				232A42B213EE9A3700473E2B /* Resources */,
+				232A42B313EE9A3700473E2B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				232A42BE13EE9A3700473E2B /* PBXTargetDependency */,
+			);
+			name = InverterTests;
+			productName = InverterTests;
+			productReference = 232A42B513EE9A3700473E2B /* InverterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		232A429C13EE9A3700473E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = None;
+			};
+			buildConfigurationList = 232A429F13EE9A3700473E2B /* Build configuration list for PBXProject "Inverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 232A429A13EE9A3700473E2B;
+			productRefGroup = 232A42A613EE9A3700473E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				232A42A413EE9A3700473E2B /* Inverter */,
+				232A42B413EE9A3700473E2B /* InverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		232A42B213EE9A3700473E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232A42C513EE9A3700473E2B /* InfoPlist.strings in Resources */,
+				232A42C713EE9A3700473E2B /* InverterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		232A42B313EE9A3700473E2B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232A42A113EE9A3700473E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232A42D513EE9A4B00473E2B /* IOCContainer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232A42B013EE9A3700473E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232A42C913EE9A3700473E2B /* InverterTests.m in Sources */,
+				232A42DA13EE9E1500473E2B /* TestClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		232A42BE13EE9A3700473E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232A42A413EE9A3700473E2B /* Inverter */;
+			targetProxy = 232A42BD13EE9A3700473E2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		232A42C313EE9A3700473E2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232A42C413EE9A3700473E2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		232A42CA13EE9A3700473E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		232A42CB13EE9A3700473E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		232A42CD13EE9A3700473E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Inverter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inverter/Inverter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		232A42CE13EE9A3700473E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Inverter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inverter/Inverter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		232A42D013EE9A3700473E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inverter/Inverter-Prefix.pch";
+				INFOPLIST_FILE = "InverterTests/InverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		232A42D113EE9A3700473E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inverter/Inverter-Prefix.pch";
+				INFOPLIST_FILE = "InverterTests/InverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		232A429F13EE9A3700473E2B /* Build configuration list for PBXProject "Inverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232A42CA13EE9A3700473E2B /* Debug */,
+				232A42CB13EE9A3700473E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232A42CC13EE9A3700473E2B /* Build configuration list for PBXNativeTarget "Inverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232A42CD13EE9A3700473E2B /* Debug */,
+				232A42CE13EE9A3700473E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		232A42CF13EE9A3700473E2B /* Build configuration list for PBXNativeTarget "InverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232A42D013EE9A3700473E2B /* Debug */,
+				232A42D113EE9A3700473E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 232A429C13EE9A3700473E2B /* Project object */;
+}

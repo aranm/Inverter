@@ -1,0 +1,21 @@
+Inverter - A simple IOC container
+
+At the moment this container can:
+
+Register a protocol together with a class. 
+Resolve a class for a protocol.
+
+Reasons for the creation of this container:
+
+Most other objective-C IOC type containers (that i have seen) construct their objects based on class name. This pattern means the constructing class has to know about the type of object it needs,
+rather than just requesting a concrete instantiation of a class that conforms to a particular protocol. Programming to interfaces (protocols in obj-c) allows loose coupling of classes and aids in unit testing.
+My take on constructing classes based on their name is that you may as well just construct the class as you already have a hard dependency on the class you are constructing (via the name) 
+and not just on the interface (protocol) you need.
+
+Disclaimer:
+
+This code is in really early days at the moment (lets see how long this message stays here :)
+
+Smells:
+
+The code currently has a dependency on libojc.A.dylib, so any project that uses this will ahve to link it as a dependency as well.
